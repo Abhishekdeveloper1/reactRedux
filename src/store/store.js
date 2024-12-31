@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
+// can keep any name of reduces
 import  counterReducer  from '../features/counter/counterSlice';
-// import  counterNewReducer  from '../features/counter/counterSlicenew';
 import counterNewReducer from '../features/counter/counterSlicenew';
 
 export default configureStore({
